@@ -78,8 +78,8 @@ export default function AddClientModal() {
                                     <label className="form-label">Status</label>
                                     <select className="form-select" id="status" value={status} onChange={(e) => setStatus(e.target.value)}>
                                         <option value="new">Not Started</option>
-                                        <option value="new">In Progress</option>    
-                                        <option value="new">Completed</option>
+                                        <option value="progress">In Progress</option>    
+                                        <option value="completed">Completed</option>
                                     </select>
                                 </div>
 
